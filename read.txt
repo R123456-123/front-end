@@ -1,0 +1,29 @@
+-> its is a js reuseable compunent based UI library
+-> Looks like HTML but isn't – JSX compiles to React.createElement() calls.
+-> Must return a single root element – You can use <div> or <> (React fragments).
+-> Attributes use camelCase – e.g., className instead of class, onClick instead of onclick.
+-> JavaScript inside {} – You can inject variables or expressions
+-> react + vite (tool)
+-> next framework for react 
+
+->{ Run: npm create vite@latest my-app
+Choose: Framework: React, Variant: JavaScript or TypeScript (your choice)
+Go into your new project: cd my-app
+Install dependencies: npm install
+Start the development server: npm run dev }
+
+-> {React apps are made out of components. A component is a piece of the UI (user interface) that has its own logic and appearance. A component can be as small as a button, or as large as an entire page.
+
+React components are JavaScript functions that return markup:
+
+function MyButton() {
+  return (
+    <button>I'm a button</button>
+  );
+}}
+
+-> MyButton is capital because react component are written in capital letter
+
+-> there’s no need for a semicolon at the end of export class and export function
+
+-> props -> properties -> its a way to pass data from one component to another
