@@ -39,10 +39,10 @@ index.css → Global styles for the whole app.
 }
 
 ->{
-Default Export	export default ...	import AnyName from "..."
+Default Export	export default ...	import AnyName from "..." 
 Named Export	export const ...	import { ExactName } from "..."
 Both in file	export default ...; export const ...;}
 
 -> rafce(React Arrow Function Component with Export) is very useful, it build the component basic boilerplate
 
--> hooks
+-> hooks -> 
