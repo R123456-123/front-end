@@ -1,3 +1,6 @@
+This repository is a learning notebook for React.js + Vite, tailwindcss.
+It contains notes, setup instructions, and example code snippets for beginners.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -29,7 +29,7 @@ function MyButton() {
 
 -> there’s no need for a semicolon at the end of export class and export function
 
--> props -> properties -> its a way to pass data from one component to another
+-> props -> properties -> its a way to pass data from one component to another, like a parent pass to child etc.
 
 ->{
 main.jsx → Starts your React app, connects React to HTML.
@@ -45,4 +45,25 @@ Both in file	export default ...; export const ...;}
 
 -> rafce(React Arrow Function Component with Export) is very useful, it build the component basic boilerplate
 
--> hooks -> 
+-> hooks ->  Component Render
+       │
+       ▼
+   useState(initialValue)  ← Hook (creates state)
+       │
+       ▼
+   [ state , setState ]   ← state value + function to update
+       │
+       ▼
+   UI Render (uses state)
+       │
+       ▼
+   User Interaction (button click, input change etc.)
+       │
+       ▼
+   setState(newValue)   ← updates state
+       │
+       ▼
+   React Re-renders component with new state
+       │
+       ▼
+   UI Updates
